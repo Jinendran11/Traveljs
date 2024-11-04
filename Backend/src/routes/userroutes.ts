@@ -2,8 +2,7 @@ import { Router } from 'express';
 import { register, login, accountdelete, accountlogout } from '../controller/usercontroller';
 import { authMiddleware } from '../middleware/authmiddleware';
 
-
-const router = Router();
+const router= Router();
 
 // User registration
 router.post('/registration', register);

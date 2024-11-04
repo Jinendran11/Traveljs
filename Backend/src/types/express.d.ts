@@ -1,4 +1,4 @@
-import { IUser } from '../model/user';  // Make sure to use the right path to your user model
+import { User,IUser } from '../model/user';  // Make sure to use the right path to your user model
 
 declare global {
   namespace Express {
